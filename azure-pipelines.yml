@@ -20,5 +20,5 @@ steps:
   displayName: 'npm installed'
 
 - script: |
-     ng build
+     npm build
   displayName: 'Build finished'
