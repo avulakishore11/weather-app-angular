@@ -20,5 +20,5 @@ steps:
   displayName: 'npm installed'
 
 - script: |
-     npm build
+     npm run build
   displayName: 'Build finished'
