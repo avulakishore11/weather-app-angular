@@ -19,6 +19,10 @@ steps:
     npm install -g npm@latest
   displayName: 'npm installed'
 
+
+
 - script: |
-     npm run build
-  displayName: 'Build finished'
+    npm install -g @angular/cli
+    npm install
+    ng build --prod
+
