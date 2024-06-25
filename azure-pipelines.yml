@@ -22,6 +22,7 @@ steps:
 
 
 - script: |
-    npm run build
-    workingDirectory: '$(Build.SourcesDirectory)/angular-cli.json'
+   npm install -g @angular/cli
+   npm install
+   ng build --prod
 
